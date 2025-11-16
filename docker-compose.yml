@@ -4,7 +4,7 @@ services:
   webapp:
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: keerthi973/webapp:latest
     container_name: python-webapp
     ports:
       - "5000:5000"
